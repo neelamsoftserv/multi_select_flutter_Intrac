@@ -321,6 +321,7 @@ class _MultiSelectBottomSheetState<T> extends State<MultiSelectBottomSheet<T>> {
                         ),
                       ),
               ),
+              SafeArea(child:
               Container(
                 padding: EdgeInsets.all(2),
                 child: Row(
@@ -366,7 +367,7 @@ class _MultiSelectBottomSheetState<T> extends State<MultiSelectBottomSheet<T>> {
                     ),
                   ],
                 ),
-              ),
+              )),
             ],
           );
         },
